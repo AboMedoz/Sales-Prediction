@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 from sklearn.feature_selection import mutual_info_regression
 
+# https://www.kaggle.com/datasets/brijbhushannanda1979/bigmart-sales-data
 df = pd.read_csv('Dataset/Train.csv')
 df = df.dropna()  # Will impute them later in the Model dropping for test only
 
